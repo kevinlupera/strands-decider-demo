@@ -1,0 +1,14 @@
+{"query": "What is 2 + 2?", "gold_tier": "cheap"}
+{"query": "Capital of France?", "gold_tier": "cheap"}
+{"query": "Convert 10 km to miles.", "gold_tier": "cheap"}
+{"query": "What day of the week is 2026-01-01?", "gold_tier": "cheap"}
+{"query": "Spell 'accommodate'.", "gold_tier": "cheap"}
+{"query": "Translate 'good morning' to Spanish.", "gold_tier": "cheap"}
+{"query": "Is 97 a prime number?", "gold_tier": "cheap"}
+{"query": "What is the boiling point of water in Celsius?", "gold_tier": "cheap"}
+{"query": "Design a fault-tolerant, multi-region event-sourcing architecture for a payments ledger that must guarantee exactly-once processing, and justify every consistency trade-off.", "gold_tier": "frontier"}
+{"query": "Given this ambiguous legal clause, enumerate the competing interpretations, the jurisdictions where each prevails, and the drafting changes that would remove the ambiguity.", "gold_tier": "frontier"}
+{"query": "Refactor this 400-line recursive parser into a table-driven state machine while preserving behaviour, and prove the two are equivalent on the edge cases.", "gold_tier": "frontier"}
+{"query": "Diagnose why a distributed training run diverges only at batch sizes above 4096, considering optimizer, learning-rate schedule, numerics, and data sharding.", "gold_tier": "frontier"}
+{"query": "Write a rigorous proof that the proposed consensus protocol is safe under asynchronous network partitions, and identify the exact assumption each step depends on.", "gold_tier": "frontier"}
+{"query": "Compare three competing database isolation levels for this workload, model the anomalies each permits, and recommend one with a quantified latency/correctness trade-off.", "gold_tier": "frontier"}
