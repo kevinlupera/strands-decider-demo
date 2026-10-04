@@ -1,0 +1,13 @@
+# The demos' core logic (decider_client.py, bench.py --fallback, the gate policy)
+# needs nothing beyond the Python standard library.
+#
+# To run against the REAL model and a REAL agent, install:
+
+# 1) The local decision model server + CLI (brings in PyTorch; large download).
+#    On Apple silicon, prefer the MLX extra for 1.4-1.6x faster inference:
+#        pip install "strands-decider[mlx]"
+strands-decider
+
+# 2) The Strands Agents SDK (only needed for guardrail_demo.py without --fallback;
+#    the agent is driven by Amazon Bedrock, so you also need AWS credentials).
+strands-agents
